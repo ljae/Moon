@@ -21,9 +21,9 @@ Korea is well known for being a fast-aging country in the world.
 I will show you several graphs to show Korea's demographic situation
 
 [Population in Korea by the year]
-
-
-
+<details>
+<summary>Folding</summary>
+<div markdown="1">
 
 ```python
 import pandas as pd
@@ -41,21 +41,18 @@ p = sns.barplot(data=df, x="year",y="Average population",palette="Blues")
 p.set_ylabel("Population in Korea by the year")
 ```
 
-
-
-
+</div>
+</details>
     Text(0, 0.5, 'Population in Korea by the year')
-
-
-
-
     
 ![png](../assets/img/output_2_1.png)
     
 
 
 [Live Births & Deaths in Korea]
-
+details>
+<summary>Folding</summary>
+<div markdown="1">
 
 ```python
 plt.figure(figsize=(15,4))
@@ -64,6 +61,11 @@ p = sns.lineplot(data = df,x="year",y="Live births", color="skyblue")
 p = sns.lineplot(data = df,x="year",y="Deaths", color="orange")
 p.set_ylabel("Births & Deaths")
 ```
+
+
+</div>
+</details>
+
 
 
 
