@@ -12,17 +12,20 @@ comments: true
 ---
 
 Let's look at the population in Korea.   
-South Korea's population reached more than **50 million** in 2016
-and it's about 51 million this year, 2021.   
+
+South Korea's population reached more than 50 million in 2016   
+and it's about **51 million** this year, 2021.   
+
 But **living alone and childless** is becoming a way of life for a younger generation in Korea these days.
-South Korea reports population drop, with **more deaths than births for the first time last year**. 
-Like other developed countries, 
-Korea is well known for being a fast-aging country in the world. 
-I will show you several graphs to show Korea's demographic situation
+South Korea reports population drop, with **more deaths than births for the first time last year**.    
+
+Like other developed countries,    
+Korea is well known for being a fast-aging country in the world.    
+I will show you several graphs to show Korea's demographic situation.   
 
 [Population in Korea by the year]
 <details>
-<summary>Folding Python Code</summary>
+<summary>Folding Python Code (click!)</summary>
 <div markdown="1">
 
 ```python
@@ -50,7 +53,7 @@ p.set_ylabel("Population in Korea by the year")
 
 [Live Births & Deaths in Korea]
 <details>
-<summary>Folding Python Code</summary>
+<summary>Folding Python Code (click!)</summary>
 <div markdown="1">
 
 ```python
