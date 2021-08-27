@@ -22,7 +22,7 @@ I will show you several graphs to show Korea's demographic situation
 
 [Population in Korea by the year]
 <details>
-<summary>Folding</summary>
+<summary>Folding Python Code</summary>
 <div markdown="1">
 
 ```python
@@ -43,15 +43,14 @@ p.set_ylabel("Population in Korea by the year")
 
 </div>
 </details>
-    Text(0, 0.5, 'Population in Korea by the year')
     
 ![png](../assets/img/output_2_1.png)
     
 
 
 [Live Births & Deaths in Korea]
-details>
-<summary>Folding</summary>
+<details>
+<summary>Folding Python Code</summary>
 <div markdown="1">
 
 ```python
@@ -70,7 +69,6 @@ p.set_ylabel("Births & Deaths")
 
 
 
-    Text(0, 0.5, 'Births & Deaths')
 
 
 
