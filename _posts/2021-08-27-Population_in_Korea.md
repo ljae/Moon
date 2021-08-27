@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Intro"
+title:  "Population in Korea"
 date:   2021-08-26
-excerpt: "Korean Population : Fast Aging"
+excerpt: "Korean Population : More Deaths Than Births"
 tag:
 - machine learning
 - Korean Population

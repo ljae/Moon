@@ -1,7 +1,7 @@
 # Site
-title:              Fire on Mars -  Machine Learning
-bio:                '머신과 함께하는 세상 러닝'
-description:        "머신과 함께하는 세상 러닝"
+title:              Fire on Mars - Real Korea Life  
+bio:                'Deep Dive Korea with Machine Learning'
+description:        "Deep Dive Korea with Machine Learning"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo_fire.png'
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   Fire on Mars
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -38,19 +38,19 @@ disqus_shortname:   taylantatli
   #ad-slot:
 #bing-verify:
 #email:
-twitter:            username
-facebook:           username
-github-url:         username
+twitter:            JAEHOON33405762
+facebook:           jaehoon.lee.31149359
+github-url:         ljae
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+instagram:          fireonmars_official
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
