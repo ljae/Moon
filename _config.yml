@@ -1,10 +1,10 @@
 # Site
-title:              Fire on Mars - Real Korea Life  
-bio:                'Deep Dive into Korea with Machine Learning'
+title:              Native Korean - Life in Korea with Real Data
+bio:                'Deep Learning into Korea'
 description:        "A Very average Korean's info essay about life in Korea with a real data" 
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo_fire.png'
+logo:               'assets/img/hat.png'
 background:         'assets/img/white_book.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
