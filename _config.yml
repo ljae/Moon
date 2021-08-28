@@ -5,7 +5,7 @@ description:        "A Very average Korean's info essay about life in Korea with
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/hat.png'
-background:         'assets/img/landark.jpg'
+background:         'assets/img/landmark.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://ljae.github.io
