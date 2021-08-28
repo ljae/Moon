@@ -19,7 +19,7 @@ and it's about **51 million** this year, 2021.
 But **living alone and childless** is becoming a way of life for a younger generation in Korea these days.
 South Korea reports population drop, with **more deaths than births for the first time last year**.    
 
-Like other developed countries,    
+Like other developed countries such as Japan,    
 Korea is well known for being a fast-aging country in the world.    
 I will show you several graphs to show Korea's demographic situation.   
 
