@@ -39,8 +39,8 @@ df = df[8]
 df.rename(columns = {"Unnamed: 0": "year"}, inplace = True)
 set_matplotlib_formats("retina")
 plt.figure(figsize=(15,4))
-plt.xticks(rotation=60)
 p = sns.barplot(data=df, x="year",y="Average population",palette="Blues")
+plt.xticks(range(0,len(df["year"]),5))
 p.set_ylabel("Population in Korea by the year")
 ```
 
