@@ -58,9 +58,10 @@ p.set_ylabel("Population in Korea by the year")
 
 ```python
 plt.figure(figsize=(15,4))
-plt.xticks(rotation=60)
 p = sns.lineplot(data = df,x="year",y="Live births", color="skyblue")
 p = sns.lineplot(data = df,x="year",y="Deaths", color="orange")
+plt.xticks(range(0,len(df["year"]),5))
+plt.legend(labels = ['Live Briths','Deaths'],loc = 'upper right')
 p.set_ylabel("Births & Deaths")
 ```
 
