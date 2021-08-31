@@ -1,31 +1,24 @@
 ---
 layout: post
-title:  "Intro"
-date:   2021-08-25
-excerpt: "It's my first trip to blogging my world"
+title:  "The sinking of MV Sewol"
+date:   2021-09-01
+excerpt: "What happend and who go on a ferry"
 tag:
-- intro 
-- real Korean
-- retirement in Korea
+- Sewol
+- Survivors
+- Disaster
 comments: true
 ---
 
-Hi! there.    
+16 April 2014, I had exercised in the gym inside the office center at lunchtime. 
+I was running on the treadmill, watching the news.
+Bottom side of the screen, there are red letters of "breaking news" and It had reported about the current status of the Sewol sinking.   
+After 30 minutes, the announcer had said "all passengers are saved".   
 
-I am Korean, living in Seoul for almost 40 years.   
-I can say I am a Very normal average Korean.   
-As a monthly paid employee with 15days of sick leave credits a year, I always dream about wealthy retirement.   
-   
-I have diverse overseas experiences ;    
-6months in Chicago-USA, 2years in Laos, 2years in Beijing-China, business trips to Bangladesh, Saudi, Pakistan, Brazil, Mexico, Iran, Turkey, etc..   
+But it was misinformation.    
+Out of 476 passengers and crew, 304 died in the disaster, including around 250 students from Danwon High School Of the approximately 172 survivors.   
 
-This diverse experience makes me writing a blog about Korea, my lovely country.   
-But sometimes very mysterious events take place here.        
-Foreigners don't know Korea well but they have heard about Samsung smartphones, LG electronics, BTS, and Kim Jeung Eun (King of the secret north kingdom).    
-After understanding Korea a little bit more, they could get an insight into what makes "made-in-Korea" products & culture.   
+Let's look at the picture of the ship
 
-I want to describe a specific theme generally with public statistics data analysis and will jump to personal experience or my own thought on this blog.   
 
-Let's go to trip.   
-
-Thanks for your visit. 
+![png](../assets/img/output_4_1.png)
