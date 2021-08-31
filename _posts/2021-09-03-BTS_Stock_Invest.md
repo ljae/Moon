@@ -11,36 +11,22 @@ tag:
 - Stock invest
 comments: true
 ---
+"A BTS drama series based on the “BTS Universe” is coming soon"   
+The voice of my wife who plugged in my ear.   
+"My cousin said Chorokbaem stock could be beneficiary"   
+The voice of my wife sounds like music.    
 
-# "BTS가 드라마를 찍고 있데!" 
+Now is not the right time to pose in the first row of a living room for watching TV.
+"Let me buy those stocks"
+I whispered to myself.  
 
+My heart beats faster once again, I tried to feel relaxed for considering the rate of return on this investment.   
+I feel like being on the path of investors such as Warren Buffet.    
 
+"Chorokbaem (stock code: 052300), meaning is a green snake"   
+My hand opened the mobile application quickly, having to search.   
 
-한류의 중심 BTS가 드라마를?
-방구석 1열을 할 자세를 잡을때가 아니다...
-
-이소식과 함께 나의 귀를 꽂히는 와이프의 목소리 
-
-# "주식 사놓으라고 하던데..."
-
-가슴이 두근거린다... 벌써 수익율을 재고 있는 나의 가벼움을 다시한번 느낀다
-
-# "주식... 그거 돈 되나? 뭔데 종목이..?"
-
-드디어 투자자의 길에 한발짝 다가선것이 아닌가?
-
-# "초록뱀"
-
-나의 빠른 손은 앱을 열고 검색에 들어간다.. 앗.. 이런!!
-두근거리는 가슴을 부여잡고 관심없는 듯 한마디를 건넨다...
-
-# "초록뱀 미디어 야 ? 아니면 컴퍼니야?"
-
-나란 미생과 같은 존재는 이제 시장이란 큰 존재를 마주하게 되었다.
-
-# "초록뱀 컴퍼니! 한달후에 팔면 된데~"
-
-그렇다! 종목코드 052300 느낌이 좋다!
+Seize the heart of the heartbeat and say a word that I don't care about.
 
 
 ```python
