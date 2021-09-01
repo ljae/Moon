@@ -12,9 +12,9 @@ tag:
 comments: true
 ---
 "A BTS drama series based on the “BTS Universe” is coming soon"   
-The voice of my wife who plugged in my ear.   
-"My cousin said Chorokbaem stock could be beneficiary"   
-The voice of my wife sounds like music.    
+The voice of my darling plugged in my ear.   
+"My cousin said Chorokbaem stock could be beneficiary with BTS's debut on screen"   
+The voice of my lover sounds like the last call.    
 
 Now is not the right time to pose in the first row of a living room for watching TV.
 "Let me buy those stocks"
@@ -26,211 +26,139 @@ I feel like being on the path of investors such as Warren Buffet.
 "Chorokbaem (stock code: 052300), meaning is a green snake"   
 My hand opened the mobile application quickly, having to search.   
 
-Seize the heart of the heartbeat and say a word that I don't care about.
+If I check the fluctuation of BTS keyword search, I could gain the current status of public interest on the global idol group. 
 
+The graph below shows BTS search volume history and Chorokbaem's price history in the same place.  
+
+
+['BTS' search volume and Chorokbaem's price history]
+<details>
+<summary>Folding Python Code (click!)</summary>
+<div markdown="1">
 
 ```python
-import numpy as np # linear algebra
+import numpy as np # python's Excel
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-from bs4 import BeautifulSoup
-import urllib
+from bs4 import BeautifulSoup # Web parsing Tool
+import urllib # Web Scraping Tool
 from urllib import request
-import re
-import json
-from datetime import datetime
-```
+import json # Json is Json
+import datetime # related to date
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 
-
-```python
-from random import shuffle
-#Setup
-client_id = "04LzL8RxAI189CkIrgjq" # 애플리케이션 등록시 발급 받은 값 입력
-client_secret = "A7Sdk_0_zu" # 애플리케이션 등록시 발급 받은 값 입력
+# Naver Search Setup
+client_id = "*********" # registered client ID from NAVER
+client_secret = "********" 
 
 link = "https://openapi.naver.com/v1/datalab/search"
 requested = request.Request(link)
 requested.add_header("X-Naver-Client-Id",client_id)
 requested.add_header("X-Naver-Client-Secret",client_secret)
 requested.add_header("Content-Type","application/json")
-```
 
+today = str(datetime.datetime.now().date()-datetime.timedelta(days=60)) # Today 
+startdate = str(datetime.datetime.now().date() - datetime.timedelta(days=1*365)) # 1 year ago 
 
-```python
-today = str(datetime.now().date()); today
-body = "{\"startDate\":\"2020-01-01\",\"endDate\":\""+today+"\",\"timeUnit\":\"date\",\"keywordGroups\":[{\"groupName\":\"초록뱀\",\"keywords\":[\"초록뱀\",\"초록뱀 미디어\",\"초록뱀 컴퍼니\",\"W홀딩컴퍼니\"]},{\"groupName\":\"BTS\",\"keywords\":[\"BTS\",\"비티에스\",\"유스\",\"YOUTH\"]}]}";
-response = urllib.request.urlopen(requested, data=body.encode("utf-8"))
+BTS_body = "{\"startDate\":\""+startdate+"\",\"endDate\":\""+today+"\",\"timeUnit\":\"date\",\"keywordGroups\":[{\"groupName\":\"BTS\",\"keywords\":[\"BTS\",\"비티에스\",\"유스\",\"YOUTH\",\"방탄소년단\"]}]}";
+chorok_body = "{\"startDate\":\""+startdate+"\",\"endDate\":\""+today+"\",\"timeUnit\":\"date\",\"keywordGroups\":[{\"groupName\":\"초록뱀\",\"keywords\":[\"초록뱀\",\"초록뱀 미디어\",\"초록뱀 컴퍼니\",\"W홀딩컴퍼니\"]}]}";
 
-rescode = response.getcode()
+BTS_response = urllib.request.urlopen(requested, data=BTS_body.encode("utf-8"))
+BTS_rescode = BTS_response.getcode()
+chorok_response = urllib.request.urlopen(requested, data=chorok_body.encode("utf-8"))
+chorok_rescode = chorok_response.getcode()
 
-if(rescode==200):
-    response_body = response.read()
+if(BTS_rescode==200):
+    response_body = BTS_response.read()
     output_data = response_body.decode('utf-8')
 else:
     print('Error code:'+ rescode)
 
+BTS_result = json.loads(output_data)
+    
+if(chorok_rescode==200):
+    response_body = chorok_response.read()
+    output_data = response_body.decode('utf-8')
+else:
+    print('Error code:'+ rescode)
 
-result = json.loads(output_data)
-```
+chorok_result = json.loads(output_data)
 
+date = [a['period'] for a in BTS_result['results'][0]['data']]
+chorok_ratio = [a['ratio'] for a in chorok_result['results'][0]['data']]
+BTS_ratio = [a['ratio'] for a in BTS_result['results'][0]['data']]
 
-```python
-date = [a['period'] for a in result['results'][0]['data']]
-
-chorok_ratio = [a['ratio'] for a in result['results'][0]['data']]
-BTS_ratio = [a['ratio'] for a in result['results'][1]['data']]
-
-df1 = pd.DataFrame({'date':date, 
+SearchResult_df = pd.DataFrame({'date':date, 
               '초록뱀':chorok_ratio,
               'BTS':BTS_ratio})
-#df1 = df1.set_index("date")
 
-df1['date'] = pd.to_datetime(df1['date'], format='%Y-%m-%d', errors='raise')
+SearchResult_df['date'] = pd.to_datetime(SearchResult_df['date'], format='%Y-%m-%d', errors='raise')
 colors = ['#BB0000', '#0000BB']
 
-df1.plot(title = "Naver Trend", figsize = (20, 10), legend = False,x='date', color = colors)
-
-
-
-df1.head()
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>date</th>
-      <th>초록뱀</th>
-      <th>BTS</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2020-01-01</td>
-      <td>0.08387</td>
-      <td>6.76173</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2020-01-02</td>
-      <td>0.33632</td>
-      <td>2.75852</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2020-01-03</td>
-      <td>0.30654</td>
-      <td>1.93271</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2020-01-04</td>
-      <td>0.08141</td>
-      <td>2.13680</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2020-01-05</td>
-      <td>0.08469</td>
-      <td>3.12492</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-
-```python
 import FinanceDataReader as fdr
-df2 = fdr.DataReader('052300','2020-01-01',today)
+df2 = fdr.DataReader('052300',startdate,today)
 df2 = df2[['Close','Volume']]
 df2 = df2.reset_index()
 
 df2['Date'] = pd.to_datetime(df2['Date'], format='%Y-%m-%d', errors='raise')
 
+df = pd.merge(SearchResult_df,df2,left_on='date',right_on='Date',how='outer')
 
-df2.head()
-```
-
-
-    ---------------------------------------------------------------------------
-
-    AttributeError                            Traceback (most recent call last)
-
-    <ipython-input-5-53dfd9ff5ac7> in <module>()
-    ----> 1 import FinanceDataReader as fdr
-          2 df2 = fdr.DataReader('052300','2020-01-01',today)
-          3 df2 = df2[['Close','Volume']]
-          4 df2 = df2.reset_index()
-          5 
-
-
-    ~/miniconda3/lib/python3.6/site-packages/FinanceDataReader/__init__.py in <module>()
-    ----> 1 from .data import (DataReader)
-          2 from .data import (StockListing)
-          3 from .data import (EtfListing)
-          4 
-          5 __version__ = '0.9.10'
-
-
-    ~/miniconda3/lib/python3.6/site-packages/FinanceDataReader/data.py in <module>()
-    ----> 1 from FinanceDataReader.investing.data import (InvestingDailyReader)
-          2 from FinanceDataReader.fred.data import (FredReader)
-          3 from FinanceDataReader.krx.data import (KrxDelistingReader)
-          4 from FinanceDataReader.naver.data import (NaverDailyReader)
-          5 from FinanceDataReader.nasdaq.listing import (NasdaqStockListing)
-
-
-    ~/miniconda3/lib/python3.6/site-packages/FinanceDataReader/investing/data.py in <module>()
-          1 from io import StringIO
-          2 import json
-    ----> 3 import requests
-          4 import pandas as pd
-          5 from FinanceDataReader._utils import (_convert_letter_to_num, _validate_dates)
-
-
-    ~/miniconda3/lib/python3.6/site-packages/requests/__init__.py in <module>()
-         85 # Check imported dependencies for compatibility.
-         86 try:
-    ---> 87     check_compatibility(urllib3.__version__, chardet.__version__)
-         88 except (AssertionError, ValueError):
-         89     warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-
-
-    AttributeError: module 'chardet' has no attribute '__version__'
-
-
-
-```python
-df = pd.merge(df1,df2,left_on='date',right_on='Date',how='outer')
-
-df.head(20)
-```
-
-
-```python
 df = df.loc[:, ['date','초록뱀','BTS','Close','Volume']]
-
 df = df.fillna(method='ffill')
+df['Volume']=df['Volume']/df['Volume'].max()*100
 
-#df.plot(title = "Stock-Daily", figsize = (20, 10), legend = False)
-df.head(20)
+# Create figure with secondary y-axis
+fig = make_subplots(specs=[[{"secondary_y": True}]])
+
+# Add traces
+fig.add_trace(
+    go.Scatter(x=df['date'], y=df['BTS'], name="BTS Search His."),
+    secondary_y=False
+)
+
+
+fig.add_trace(
+    go.Scatter(x=df['date'], y=df['Close'], name="STOCK His."),
+    secondary_y=True
+)
+
+#fig.add_trace(
+#    go.Scatter(x=df['date'], y=df['Volume'], name="STOCK Volume His."),
+#    secondary_y=False
+#)
+
+
+# Add figure title
+fig.update_layout(
+    title_text="Double Y Axis Example"
+)
+
+# Set x-axis title
+fig.update_xaxes(title_text="xaxis title")
+
+# Set y-axes titles
+fig.update_yaxes(title_text="<b>Search Volume</b> 100", secondary_y=False)
+fig.update_yaxes(title_text="<b>Price</b> KRW", secondary_y=True)
+
+fig.show()
+
 ```
+
+</div>
+</details>
+    
+![png](../assets/img/BTS_Chorok_history.png)
+
+
+How's it? Both of them seemed to be aligned.   
+And fortunately, search volume could be a leading indicator for the stock's price.    
+
+Let's see the company's financial status.   
+
+![png](../assets/img/ChorokBaem_fin.png)
+
+Revenue has been plunging 2years ago rather than increasing continually, **low growth**.   
+However, net income seems good last year.   
+
+I decided to invest not for the long-term but temporary.   
