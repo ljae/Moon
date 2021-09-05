@@ -11,25 +11,29 @@ tag:
 - Stock invest
 comments: true
 ---
+One day the voice of my darling plugged in my ear.   
 "A BTS drama series based on the “BTS Universe” is coming soon"   
-The voice of my darling plugged in my ear.   
 "My cousin said Chorokbaem stock could be beneficiary with BTS's debut on screen"   
-The voice of my lover sounds like the last call.    
+My lover's cousin has gained fortune from the stock market.    
 
-Now is not the right time to pose in the first row of a living room for watching TV.
-"Let me buy those stocks"
-I whispered to myself.  
+It could be the last call.    
+I whispered to myself.     
+"Let me buy those stocks"   
 
-My heart beats faster once again, I tried to feel relaxed for considering the rate of return on this investment.   
+My heart beats faster, I tried to feel relaxed for considering the rate of return on this investment.   
 I feel like being on the path of investors such as Warren Buffet.    
 
-"Chorokbaem (stock code: 052300), meaning is a green snake"   
-My hand opened the mobile application quickly, having to search.   
+"Chorokbaem (stock code: 052300)"
+The company has diverse business areas related to filming movies and drama. 
 
+My hand opened the mobile application quickly, having to search.   
+This company is not a big major company and may have a weak financial position so 
+the short-term strategy is right on this investement. 
+
+One idea popped into my head.    
 If I check the fluctuation of BTS keyword search, I could gain the current status of public interest on the global idol group. 
 
-The graph below shows BTS search volume history and Chorokbaem's price history in the same place.  
-
+The graph below shows BTS search volume history and Chorokbaem's price history in the same place.    
 
 ['BTS' search volume and Chorokbaem's price history]
 <details>
@@ -152,7 +156,7 @@ fig.show()
 
 
 How's it? Both of them seemed to be aligned.   
-And fortunately, search volume could be a leading indicator for the stock's price.    
+And fortunately, search volume could be a leading indicator for the stock's down trend.   
 
 Let's see the company's financial status.   
 
@@ -161,4 +165,7 @@ Let's see the company's financial status.
 Revenue has been plunging 2years ago rather than increasing continually, **low growth**.   
 However, net income seems good last year.   
 
-I decided to invest not for the long-term but temporary.   
+I decided to invest small money due to long-term risk. 
+
+I will update this blog when I got a point to sell 
+(High volme on BTS search, leading indicator of down trend of the stock)
