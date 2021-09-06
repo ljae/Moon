@@ -21,7 +21,7 @@ I whispered to myself.
 "Let me buy those stocks"   
 
 My heart beats faster, I tried to feel relaxed for considering the rate of return on this investment.   
-I feel like being on the path of investors such as Warren Buffet.    
+I feel like being on the path of investors like Warren Buffet.    
 
 "Chorokbaem (stock code: 052300)"
 The company has diverse business areas related to filming movies and drama. 
