@@ -12,16 +12,16 @@ tag:
 comments: true
 ---
 One day the voice of my darling plugged in my ear.   
-"A BTS drama series based on the “BTS Universe” is coming soon"   
-"My cousin said Chorokbaem stock could be beneficiary with BTS's debut on screen"   
-My lover's cousin has gained fortune from the stock market.    
+"A BTS TV drama series based on the **“BTS Universe”** is coming soon"   
+"My cousin said 'Chorokbaem' stock could be beneficiary with BTS's debut on screen"   
+My lover's cousin has gained fortune from **the stock market**.    
 
 It could be the last call.    
 I whispered to myself.     
 "Let me buy those stocks"   
 
 My heart beats faster, I tried to feel relaxed for considering the rate of return on this investment.   
-I feel like being on the path of investors like Warren Buffet.    
+I feel like being on the path of investors. 
 
 "Chorokbaem (stock code: 052300)"
 The company has diverse business areas related to filming movies and drama. 
@@ -31,9 +31,9 @@ This company is not a big major company and may have a weak financial position s
 the short-term strategy is right on this investement. 
 
 One idea popped into my head.    
-If I check the fluctuation of BTS keyword search, I could gain the current status of public interest on the global idol group. 
+If I check the fluctuation of **BTS keyword search**, I could gain the current status of **public interest** on this global idol group. 
 
-The graph below shows BTS search volume history and Chorokbaem's price history in the same place.    
+The graph below shows BTS search volume history and **Chorokbaem's price history** in the same place.    
 
 ['BTS' search volume and Chorokbaem's price history]
 <details>
@@ -156,7 +156,7 @@ fig.show()
 
 
 How's it? Both of them seemed to be aligned.   
-And fortunately, search volume could be a leading indicator for the stock's down trend.   
+And fortunately, **search volume** could be **a leading indicator** for the **down trend** in price of the stock.   
 
 Let's see the company's financial status.   
 
@@ -165,7 +165,10 @@ Let's see the company's financial status.
 Revenue has been plunging 2years ago rather than increasing continually, **low growth**.   
 However, net income seems good last year.   
 
-I decided to invest small money due to long-term risk. 
+I decided to invest small money due to long-term risk.   
+Bought 1000 USD.   
+I will keep an eye on this graph until the search volume soars after TV drama trailer is on air.
+That's the right timing to toss out whole stock. 
 
 I will update this blog when I got a point to sell 
 (High volme on BTS search, leading indicator of down trend of the stock)
