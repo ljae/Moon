@@ -27,7 +27,7 @@ The ferry has sunk to the bottom of the ocean because it lost the center of grav
 Let's look at the picture of the ship
 
 
-![png](../assets/img/sewol.png)
+![png](../assets/img/Sewol.png)
 
 I got a total of 476 passenger lists. 
 The graph below shows how many passengers are 
