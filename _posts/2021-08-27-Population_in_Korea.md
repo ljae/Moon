@@ -21,7 +21,8 @@ South Korea reports population drop, with **more deaths than births for the firs
 
 Like other developed countries such as Japan,    
 Korea is well known for being a fast-aging country in the world.    
-I will show you several graphs to show Korea's demographic situation.   
+This graph shows that South Korea's demographic history.   
+The population of Korea has increased till now except when the Korean war broke out in the 1950s.   
 
 [Population in Korea by the year]
 <details>
@@ -49,7 +50,7 @@ p.set_ylabel("Population in Korea by the year")
     
 ![png](../assets/img/output_2_1.png)
     
-
+I have two children. And I had 
 
 [Live Births & Deaths in Korea]
 <details>

@@ -31,6 +31,7 @@ Let's look at the infographics from newspaper.
 
 I got a total of 476 passenger lists. 
 
+
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -42,7 +43,7 @@ I got a total of 476 passenger lists.
     }
 
     .dataframe thead th {
-        text-align: right;
+        text-align: middle;
     }
 </style>
 <table border="1" class="dataframe">
@@ -118,6 +119,7 @@ I got a total of 476 passenger lists.
   </tbody>
 </table>
 </div>
+```
 
 
 The graph below shows how the passengers & crews are composed of.   
