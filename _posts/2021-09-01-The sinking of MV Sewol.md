@@ -12,27 +12,117 @@ comments: true
 
 16 April 2014, I had exercised in the gym inside the office center at lunchtime. 
 I was running on the treadmill, watching the news.
-Bottom side of the screen, there are red letters of "breaking news" and It had reported about the current status of the ferry named 'Sewol'.    
-It was sinking!!
+Bottom side of the screen, there are red letters of "**breaking news**" and It had reported about the current status of the ferry named 'Sewol'.    
+**It was sinking!!**
 
 After 30 minutes, I could get a good news from TV.  
 I remember exactly that the announcer had said "all passengers are saved" and I relieved at that time.   
 
 But it was huge misinformation.    
-Out of 476 passengers and crew, 304 died in the disaster, including around 250 students from Danwon High School Of the approximately 172 survivors.   
+Out of **476 passengers and crew, 304 died in the disaster**,    
+including around **250 students from Danwon High School** Of the approximately 172 survivors.   
 
 The ferry has sunk to the bottom of the ocean because it lost the center of gravity with a quick turn.
 (Renovations by the owner, and approved by regulators, made the ferry more profitable, but also dangerous)    
 
-Let's look at the picture of the ship
-
+Let's look at the infographics from newspaper. 
 
 ![png](../assets/img/Sewol.png)
 
 I got a total of 476 passenger lists. 
-The graph below shows how many passengers are 
 
-[Sewol passengers' age]
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Main Category</th>
+      <th>Median</th>
+      <th>Mistress</th>
+      <th>floor</th>
+      <th>location</th>
+      <th>survival</th>
+      <th>gender</th>
+      <th>age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>sailor</td>
+      <td>Deck</td>
+      <td>Shift captain</td>
+      <td>5</td>
+      <td>front</td>
+      <td>survival</td>
+      <td>male</td>
+      <td>69.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>sailor</td>
+      <td>Deck</td>
+      <td>1</td>
+      <td>5</td>
+      <td>front</td>
+      <td>survival</td>
+      <td>male</td>
+      <td>42.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>sailor</td>
+      <td>Deck</td>
+      <td>1st,</td>
+      <td>5</td>
+      <td>front</td>
+      <td>survival</td>
+      <td>male</td>
+      <td>34.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>sailor</td>
+      <td>Deck</td>
+      <td>2nd sailor</td>
+      <td>5</td>
+      <td>front</td>
+      <td>survival</td>
+      <td>male</td>
+      <td>47.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>sailor</td>
+      <td>Deck</td>
+      <td>3,</td>
+      <td>5</td>
+      <td>front</td>
+      <td>survival</td>
+      <td>female</td>
+      <td>26.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+The graph below shows how the passengers & crews are composed of.   
+
+[Composition of Age in Sewol passengers]
 <details>
 <summary>Folding Python Code (click!)</summary>
 <div markdown="1">
