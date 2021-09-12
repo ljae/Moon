@@ -6,9 +6,18 @@ date: 2021-09-01
 comments: false
 ---
     
-<center><b>Writer</b></a> is an Very Average Korean and this blog takes his viewpoint about issues in Korea</center>
+<center><a><b>Writer</b></a> is an Very Average Korean and this blog takes his viewpoint about issues in Korea</center>
 
 ## Writing Rules
 * Fact based story
 * Data based analysis
+* My own personal experiences 
 * No political message
+
+## Writer
+* a Korean
+* Born in 1982
+* Have two kids
+* Bachelor's degree : Computer Science 
+* Master Business Administration in Shanghai
+* About 20 years experience 
