@@ -29,7 +29,7 @@ sass:
 #disqus_shortname:  https-ljae-github-io 
 utterances:
   enable: true
-  repo: ljae/ljae.github
+  repo: ljae/blog-comments
   issue_term: title
   theme: github-light
 
