@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:  https-ljae-github-io 
+#disqus_shortname:  https-ljae-github-io 
 utterances:
   enable: true
   repo: ljae/ljae.github
