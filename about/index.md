@@ -6,7 +6,7 @@ date: 2021-09-01
 comments: false
 ---
     
-<center><a><b>Writer</b></a> is an Very Average Korean and this blog takes his viewpoint about issues in Korea</center>
+<center><a><b>Writer</b></a> is an Very Average Korean, whose blog has own viewpoint about issues took place in Korea</center>
 
 ## Writing Rules
 * Fact based story
