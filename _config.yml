@@ -27,11 +27,6 @@ sass:
 
 # Comments
 #disqus_shortname:  https-ljae-github-io 
-utterances:
-  enable: true
-  repo: ljae/blog-comments
-  issue_term: title
-  theme: github-light
 
 # Social
 # if you don't have any of social below, comment the line.
