@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Invest in print" 
+title:  "Invest in print (writing)" 
 date:   2021-09-12
 excerpt: "Own the print of Marc Chagall"
 tag:
