@@ -34,10 +34,10 @@ I got a total of 476 passenger lists.
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
+        text-align: middle;
     }
     .dataframe tbody tr th {
-        vertical-align: top;
+        text-align: top;
     }
     .dataframe thead th {
         text-align: middle;
