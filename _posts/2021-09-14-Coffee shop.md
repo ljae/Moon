@@ -33,7 +33,10 @@ Let's look at the locations of the coffee giant.
 
 I will put one more coffee franchise named "TwoSomePlace", one of the coffee giants in Korea. 
 
-[Street Store & Restaurant Info.]
+[Locations of 2 big coffee franchise]
+<details>
+<summary>Folding Python Code (click!)</summary>
+<div markdown="1">
 
 ```python
 import pandas as pd
@@ -70,27 +73,16 @@ colors = ["green", "brown"]
 sns.set_palette(sns.color_palette(colors))
 
 ```
-
-    /opt/anaconda3/lib/python3.8/site-packages/pandas/core/indexing.py:1599: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      self.obj[key] = infer_fill_value(value)
-    /opt/anaconda3/lib/python3.8/site-packages/pandas/core/indexing.py:1720: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      self._setitem_single_column(loc, value, pi)
-
-
-
-    
-![png](output_1_1.png)
+</div>
+</details>
+![png](../assets/img/coffee_output_1.png)
     
 
 
+[Map for 2 big coffee franchises]
+<details>
+<summary>Folding Python Code (click!)</summary>
+<div markdown="1">
 
 ```python
 fig = plt.figure(figsize=(8,5))
@@ -98,20 +90,24 @@ colors = ["green", "brown"]
 sns.set_palette(sns.color_palette(colors))
 sns.scatterplot(data=df_cafe, x="Longitude", y="Latitude", hue="Brand")
 ```
+</div>
+</details>
 
 
 
 
-    <AxesSubplot:xlabel='Longitude', ylabel='Latitude'>
 
 
 
 
+![png](../assets/img/coffee_output_2.png)
     
-![png](output_2_1.png)
     
 
 
+<details>
+<summary>Folding Python Code (click!)</summary>
+<div markdown="1">
 
 ```python
 import folium
@@ -136,4 +132,7 @@ for i in df_cafe.index:
                           tooltip=title).add_to(m)
 m
 ```
-<iframe src="../assets/img/Coffee_franchise_map.html" height="500" width="700"></iframe>
+</div>
+</details>
+
+<iframe src="../assets/img/Coffee_franchise_map.html" height="400" width="700"></iframe>
