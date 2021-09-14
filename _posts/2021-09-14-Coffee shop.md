@@ -136,5 +136,4 @@ for i in df_cafe.index:
                           tooltip=title).add_to(m)
 m
 ```
-
-<iframe src="./Coffee_franchise_map.html" height="500" width="1500"></iframe>
+<iframe src="../assets/img/Coffee_franchise_map.html" height="500" width="700"></iframe>
