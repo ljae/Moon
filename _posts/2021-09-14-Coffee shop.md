@@ -137,4 +137,4 @@ for i in df_cafe.index:
 m
 ```
 
-<iframe src="./Coffee_franchise_map.html" height="500" width="500"></iframe>
+<iframe src="./Coffee_franchise_map.html" height="500" width="1500"></iframe>
