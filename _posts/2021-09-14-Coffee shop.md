@@ -29,7 +29,9 @@ And STARBUCKS Hit Until now.
 
 But it's too much expecially in Seoul even though I am writing this post in Starbucks located in GangNam, Seoul.    
 
-I got a list of street stores. 
+Let's look at the locations of the coffee giant. 
+
+I will put one more coffee franchise named "TwoSomePlace", one of the coffee giants in Korea. 
 
 [Street Store & Restaurant Info.]
 
@@ -58,122 +60,6 @@ columns = ['Mutual name', 'Country-in-class classification name', 'Classificatio
 df = df[columns].copy()
 df = df.rename(columns = {'Mutual name' : 'Store name', 'Summary' : 'Classification name-2', 'Attempt':'City', 'Life': 'Town','Hardness':'Longitude'})
 
-df.head()
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Store name</th>
-      <th>Country-in-class classification name</th>
-      <th>Classification name</th>
-      <th>Classification name-2</th>
-      <th>City</th>
-      <th>Town</th>
-      <th>Administrative name</th>
-      <th>Legal name</th>
-      <th>Street name address</th>
-      <th>Longitude</th>
-      <th>Latitude</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>비지트</td>
-      <td>음식</td>
-      <td>한식</td>
-      <td>한식/백반/한정식</td>
-      <td>서울특별시</td>
-      <td>서초구</td>
-      <td>방배4동</td>
-      <td>방배동</td>
-      <td>서울특별시 서초구 동광로18길 82</td>
-      <td>126.991394</td>
-      <td>37.488375</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>쓰리에프</td>
-      <td>음식</td>
-      <td>한식</td>
-      <td>한식/백반/한정식</td>
-      <td>서울특별시</td>
-      <td>동작구</td>
-      <td>사당2동</td>
-      <td>사당동</td>
-      <td>서울특별시 동작구 동작대로27가길 12</td>
-      <td>126.980952</td>
-      <td>37.487105</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>채움</td>
-      <td>음식</td>
-      <td>한식</td>
-      <td>한식/백반/한정식</td>
-      <td>서울특별시</td>
-      <td>종로구</td>
-      <td>종로1.2.3.4가동</td>
-      <td>수송동</td>
-      <td>서울특별시 종로구 삼봉로 81</td>
-      <td>126.981794</td>
-      <td>37.572387</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>호구의주방</td>
-      <td>소매</td>
-      <td>가정/주방/인테리어</td>
-      <td>주방가구판매</td>
-      <td>서울특별시</td>
-      <td>영등포구</td>
-      <td>양평2동</td>
-      <td>양평동4가</td>
-      <td>서울특별시 영등포구 선유로 269</td>
-      <td>126.897892</td>
-      <td>37.536700</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>다향</td>
-      <td>음식</td>
-      <td>한식</td>
-      <td>한식/백반/한정식</td>
-      <td>서울특별시</td>
-      <td>서초구</td>
-      <td>서초3동</td>
-      <td>서초동</td>
-      <td>서울특별시 서초구 효령로 230</td>
-      <td>127.009382</td>
-      <td>37.483436</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-
-```python
 fig = plt.figure(figsize=(15,5))
 df_seoul = df.copy()
 df_cafe = df_seoul[df_seoul["Store name"].notnull()&df_seoul['Store name'].str.contains('스타벅스|투썸플레이스')]
@@ -182,6 +68,7 @@ df_cafe.loc[df_cafe["Store name"].str.contains('투썸플레이스'), "Brand"] =
 sns.countplot(data=df_cafe, x="Town", hue="Brand")
 colors = ["green", "brown"]
 sns.set_palette(sns.color_palette(colors))
+
 ```
 
     /opt/anaconda3/lib/python3.8/site-packages/pandas/core/indexing.py:1599: SettingWithCopyWarning: 
@@ -250,7 +137,6 @@ for i in df_cafe.index:
 m
 ```
 
-<!DOCTYPE html>
 <html>
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
@@ -270,4 +156,3 @@ m
 
 
 
-</html>
