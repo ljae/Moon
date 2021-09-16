@@ -12,28 +12,23 @@ tag:
 - StarbucksHolic
 comments: true
 ---
-
-South Korea has more than 1,200 Starbucks locations, more than the United Kingdom,
-resulting in the country one of the coffee giant's largest markets. 
+South Korea has more than **1,200 Starbucks** locations, more than the United Kingdom,
+making the country one of the coffee giant's largest markets. 
 
 Foreigners can visit Starbucks shortly after arriving in South Korea.    
-He can discover the stores have a lot in common with locations in US.   
+Anybody can discover the stores have a lot in common with them in the US.   
 
 I also like the place with a fancy sign "STARBUCKS".     
-In Korea, "STARBUCKS" means something more than a cup of coffee.   
-It cost a lot to a person who couldn't pay for a culture or brand.     
+In Korea, "STARBUCKS" means **something more than a cup of coffee**.   
+Comparing to the price of a meal, It seems to cost a lot to a person who doesn't want to pay for culture or brand.     
 When STARBUCKS launched in Korea, 
-Someone who grab a cup of STARBUCKS coffee seems to be a stylish trend person.   
+Someone who grabs a cup of Starbucks coffee looks **a stylish trend citizen**.   
 
-And STARBUCKS Hit Until now. 
+Until now, Starbucks is known for being one of the best places to sip a cup of coffee.  
 
-But it's too much expecially in Seoul even though I am writing this post in Starbucks located in GangNam, Seoul.    
+But its locations are too many especially in Seoul even though I am writing this post in Starbucks located in Gangnam, Seoul.    
 
-Let's look at the locations of the coffee giant. 
-
-I will put one more coffee franchise named "TwoSomePlace", one of the coffee giants in Korea. 
-
-[Locations of 2 big coffee franchise]
+[locations of 2 big coffee franchises by town]
 <details>
 <summary>Folding Python Code (click!)</summary>
 <div markdown="1">
@@ -77,9 +72,15 @@ sns.set_palette(sns.color_palette(colors))
 </details>
 ![png](../assets/img/coffee_output_1.png)
     
+**In Gangnam, there are nearly 80 Starbucks locations.**
+And every locations have full of customers after lunch time. 
 
+A lot of new coffee shops open and close around Starbucks. 
+But winner has always been Starbucks. 
 
-[Map for 2 big coffee franchises]
+Let's see shape of the coffee location distribution.  
+
+[shape of the distribution]
 <details>
 <summary>Folding Python Code (click!)</summary>
 <div markdown="1">
@@ -93,17 +94,11 @@ sns.scatterplot(data=df_cafe, x="Longitude", y="Latitude", hue="Brand")
 </div>
 </details>
 
-
-
-
-
-
-
-
 ![png](../assets/img/coffee_output_2.png)
     
-    
+It looks like map of Seoul!!!
 
+I will show you the map of Seoul and their locations. 
 
 <details>
 <summary>Folding Python Code (click!)</summary>
