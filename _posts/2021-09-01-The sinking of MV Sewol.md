@@ -120,7 +120,7 @@ I got a total of 476 passenger lists.
 
 The graph below shows how the passengers & crews are composed of.   
 
-[Composition of Age in Sewol passengers]
+[composition of age in Sewol passengers]
 <details>
 <summary>Folding Python Code (click!)</summary>
 <div markdown="1">
