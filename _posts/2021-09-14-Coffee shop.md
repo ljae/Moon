@@ -130,4 +130,4 @@ m
 </div>
 </details>
 
-<iframe src="../assets/img/Coffee_franchise_map.html" height="100%" ></iframe>
+<iframe src="../assets/img/Coffee_franchise_map.html" ></iframe>
