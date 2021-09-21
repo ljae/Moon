@@ -8,20 +8,20 @@ tag:
 - Franchise
 - Seoul Map
 - Starbucks
-- Idiya
+- TwoSomePlace
 - StarbucksHolic
 comments: true
 ---
 
-Coffee.     
-Korean drinks 1cup(5oz) per day.     
-Korea ranked 26th in coffee consumption.    
+**COFFEE.**
+Korean drinks **1cup(5oz) per day**.     
+Korea ranked **26th in coffee consumption** globally.    
 Comparing to most consuming nation Finland where Finnish drinks 5cups per day,    
 Korean drinks less.    
 
 However,
 In terms of number of Starbucks locations,
-Korea ranked 4th globally.    
+Korea **ranked 4th globally**.    
 
 South Korea has more than **1,400 Starbucks** locations, more than the United Kingdom,
 making the country one of the coffee giant's largest markets. 
@@ -38,6 +38,8 @@ Someone who grabs a cup of Starbucks coffee looks **a stylish trend citizen**.
 Until now, Starbucks is known for being one of the best places to sip a cup of coffee with a bunch of young trendy people.
 
 But its locations are too many especially in Seoul.
+
+Below graph shows that number of two big coffee franchises locations.   
 
 [locations of 2 big coffee franchises by town]
 <details>
@@ -83,7 +85,7 @@ sns.set_palette(sns.color_palette(colors))
 </details>
 ![png](../assets/img/coffee_output_1.png)
     
-**In Gangnam, there are nearly 80 Starbucks locations.**
+**In Gangnam Town, there are nearly 80 Starbucks locations.**
 And every locations have full of customers after lunch time. 
 
 A lot of new coffee shops open and close around Starbucks. 
@@ -110,7 +112,11 @@ sns.scatterplot(data=df_cafe, x="Longitude", y="Latitude", hue="Brand")
 It looks like map of Seoul!!!
 
 I will show you the map of Seoul and their locations. 
+How about this?
 
+If you come to Korea, do not make an appointment at Starbucks.
+I have several experiences to go different shop where is located 50m far away from the meeting place, 
+the other Starbucks location. 
 <details>
 <summary>Folding Python Code (click!)</summary>
 <div markdown="1">
