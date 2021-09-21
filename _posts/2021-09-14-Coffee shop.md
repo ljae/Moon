@@ -12,7 +12,18 @@ tag:
 - StarbucksHolic
 comments: true
 ---
-South Korea has more than **1,200 Starbucks** locations, more than the United Kingdom,
+
+Coffee.     
+Korean drinks 1cup(5oz) per day.     
+Korea ranked 26th in coffee consumption.    
+Comparing to most consuming nation Finland where Finnish drinks 5cups per day,    
+Korean drinks less.    
+
+However,
+In terms of number of Starbucks locations,
+Korea ranked 4th globally.    
+
+South Korea has more than **1,400 Starbucks** locations, more than the United Kingdom,
 making the country one of the coffee giant's largest markets. 
 
 Foreigners can visit Starbucks shortly after arriving in South Korea.    
