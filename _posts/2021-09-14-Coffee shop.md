@@ -35,9 +35,9 @@ Comparing to the price of a meal, It seems to cost a lot to a person who doesn't
 When STARBUCKS launched in Korea, 
 Someone who grabs a cup of Starbucks coffee looks **a stylish trend citizen**.   
 
-Until now, Starbucks is known for being one of the best places to sip a cup of coffee.  
+Until now, Starbucks is known for being one of the best places to sip a cup of coffee with a bunch of young trendy people.
 
-But its locations are too many especially in Seoul even though I am writing this post in Starbucks located in Gangnam, Seoul.    
+But its locations are too many especially in Seoul.
 
 [locations of 2 big coffee franchises by town]
 <details>
