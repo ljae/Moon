@@ -13,7 +13,7 @@ tag:
 comments: true
 ---
 
-**COFFEE.**
+**COFFEE.**    
 Korean drinks **1cup(5oz) per day**.     
 Korea ranked **26th in coffee consumption** globally.    
 Comparing to most consuming nation Finland where Finnish drinks 5cups per day,    
@@ -37,7 +37,7 @@ Someone who grabs a cup of Starbucks coffee looks **a stylish trend citizen**.
 
 Until now, Starbucks is known for being one of the best places to sip a cup of coffee with a bunch of young trendy people.
 
-But its locations are too many especially in Seoul.
+But there are too many Starbucks locations in Seoul.
 
 Below graph shows that number of two big coffee franchises locations.   
 
@@ -115,7 +115,7 @@ I will show you the map of Seoul and their locations.
 How about this?
 
 If you come to Korea, do not make an appointment at Starbucks.
-I have several experiences to go different shop where is located 50m far away from the meeting place, 
+I have several cases to go wrong Starbucks place where is located nearby the meeting place, 
 the other Starbucks location. 
 <details>
 <summary>Folding Python Code (click!)</summary>
