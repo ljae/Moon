@@ -33,10 +33,10 @@ I got a total of 476 passenger lists.
 
 |Main Category|Median|Mistress|floor|location|survival|gender|age|
 |---|---|---|---|---|---|---|---|
-|sailor|Deck|Shift|captain|5|front|survival|male|69|
+|sailor|Deck|Shift captain|5|front|survival|male|69|
 |sailor|Deck|1|5|front|survival|male|42.0|
 |sailor|Deck|1st,|5|front|survival|male|34.0|
-|sailor|Deck|2nd|sailor|5|front|survival|male|47.0|
+|sailor|Deck|2nd sailor|5|front|survival|male|47.0|
 |sailor|Deck|3,|5|front|survival|female|26.0|
 
 
