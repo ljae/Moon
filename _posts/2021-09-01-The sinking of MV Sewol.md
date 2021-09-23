@@ -31,91 +31,14 @@ Let's look at the infographics from newspaper.
 
 I got a total of 476 passenger lists. 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        text-align: middle;
-    }
-    .dataframe tbody tr th {
-        text-align: top;
-    }
-    .dataframe thead th {
-        text-align: middle;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Main Category</th>
-      <th>Median</th>
-      <th>Mistress</th>
-      <th>floor</th>
-      <th>location</th>
-      <th>survival</th>
-      <th>gender</th>
-      <th>age</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>sailor</td>
-      <td>Deck</td>
-      <td>Shift captain</td>
-      <td>5</td>
-      <td>front</td>
-      <td>survival</td>
-      <td>male</td>
-      <td>69.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>sailor</td>
-      <td>Deck</td>
-      <td>1</td>
-      <td>5</td>
-      <td>front</td>
-      <td>survival</td>
-      <td>male</td>
-      <td>42.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>sailor</td>
-      <td>Deck</td>
-      <td>1st,</td>
-      <td>5</td>
-      <td>front</td>
-      <td>survival</td>
-      <td>male</td>
-      <td>34.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>sailor</td>
-      <td>Deck</td>
-      <td>2nd sailor</td>
-      <td>5</td>
-      <td>front</td>
-      <td>survival</td>
-      <td>male</td>
-      <td>47.0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>sailor</td>
-      <td>Deck</td>
-      <td>3,</td>
-      <td>5</td>
-      <td>front</td>
-      <td>survival</td>
-      <td>female</td>
-      <td>26.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+|Main Category|Median|Mistress|floor|location|survival|gender|age|
+|---|---|---|---|---|---|---|---|
+|sailor|Deck|Shift|captain|5|front|survival|male|69|
+|sailor|Deck|1|5|front|survival|male|42.0|
+|sailor|Deck|1st,|5|front|survival|male|34.0|
+|sailor|Deck|2nd|sailor|5|front|survival|male|47.0|
+|sailor|Deck|3,|5|front|survival|female|26.0|
+
 
 
 The graph below shows how the passengers & crews are composed of.   
