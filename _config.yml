@@ -1,11 +1,11 @@
 # Site
-title:              Welcome to Korea
-bio:                'Deep Learning into Korea'
+title:              QUANT 그 여정의 시작 - the way to change the life
+bio:                'Deep Learning into QUANT'
 description:        "A Very average Korean's info essay about life in Korea with a real data" 
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/kor.png'
-background:         'assets/img/landmark.jpg'
+logo:               'assets/img/logo_fire.png'
+background:         'assets/img/white_book.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://ljae.github.io
