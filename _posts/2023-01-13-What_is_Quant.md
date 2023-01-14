@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "내가 찾은 최고의 투자 Quant"
+title:  "투자일지의 시작 : Quant"
 date:   2023-01-13
-excerpt: "검증되고 안정되게 의미있는 자산 증식의 유일한 길"
+excerpt: "유의미한 자산증식을 위한 40대의 여정"
 tag:
 - 퀀트 
 - Quant
